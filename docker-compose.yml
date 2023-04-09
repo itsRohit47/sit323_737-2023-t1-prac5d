@@ -1,7 +1,7 @@
 version: "3"
 services:
   db:
-    image: my-db-image
+    image: database
     container_name: database
     networks:
       my-network:
@@ -9,7 +9,7 @@ services:
         aliases:
           - mysql
   app:
-    image: rohit-react-app
+    image: frontend
     container_name: frontend
     networks:
       my-network:
