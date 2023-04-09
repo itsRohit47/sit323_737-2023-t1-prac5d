@@ -1,0 +1,3 @@
+FROM mysql:latest
+ENV MYSQL_ROOT_PASSWORD=rio
+ENV MYSQL_DATABASE=nft-details
